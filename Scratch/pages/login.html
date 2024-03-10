@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secratch - Anonymous Chat</title>
+    <link rel="stylesheet" href="/Scratch/css/login.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="/Scratch/img/loginPage/slazzer-edit-image (2).png" alt="Logo">
+            <h1>Secratch</h1>
+        </div>
+    </header>
+    <div class="container">
+
+        <div class="logo-section">
+            <img src="/Scratch/img/loginPage/iphoneEmpty.png" alt="Background Image" class="background-image">
+            <img src="/Scratch/img/loginPage/logoEmpty.png" alt="Logo">
+        </div>
+        <div class="form-section">
+            <h1>Secratch</h1>
+            <form id="login-form" action="/Scratch/js/login.js" method="POST">
+                <div class="input-container">
+                    <input type="email" name="email" placeholder="Email or Phone number" required>
+                </div>
+                <div class="input-container">
+                    <input type="password" name="password" placeholder="Password" required>
+                </div>
+                <button type="submit">Log In</button>
+            </form>
+
+            <div class="signup">
+                Don't have an account? <a href="/Scratch/pages/signUp.html">Sign Up</a>
+            </div>
+        </div>
+    </div>
+
+    
+        <footer>
+            <div class="language-Selector">
+                <label for="languages">Choose a language:</label>
+                <select id="languages" name="languages">
+                    <option value="en">English</option>
+                    <option value="fr">French</option>
+                    <option value="de">German</option>
+                    <option value="es">Spanish</option>
+                    <option value="tr">Turkish</option>
+                </select>
+                <p>2024 Secratch. All rights reserved</p>
+            </div>
+        </footer>
+   
+
+    <script src="/Scratch/js/login.js"></script>
+</body>
+
+</html>

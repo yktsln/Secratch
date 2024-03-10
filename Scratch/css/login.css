@@ -1,0 +1,206 @@
+
+
+:root{
+    font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+    font-size: 15px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 18.5714px;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6f3fd;;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+
+
+
+.logo img{
+    position: fixed;
+    top: 2%;
+    left: 2%;
+    width: 6%;
+    height: auto;
+    background-color: inherit;
+}
+
+.logo h1{
+    position: fixed;
+    top: 14%;
+    left: 3%;
+    width: 2%;
+    height: auto;
+    margin-top: -60px;
+        font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+        font-size: 35px;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 400;
+        line-height: 18.5714px;
+
+
+}
+
+
+
+
+/*!-----------------------------------------------------------------------------------*/
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.logo-section {
+    flex: 1;
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    top: 24%;
+    right: 45%;
+    background-color:inherit;
+}
+
+.logo-section img:first-child {
+    width: 100%;
+    height: auto;
+    position: relative;
+    left: 17%;
+}
+
+.logo-section img:nth-child(2){
+   width: 15%;
+   height: auto;
+   position:relative;
+   right: 21%;
+
+}
+
+
+
+/*!----------------------------------------------------------------------------------------*/
+
+.form-section h1{
+    font-family: Rockwell, "Courier Bold", Courier, Georgia, Times, "Times New Roman", serif;
+    font-size: 40px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 18.5714px;
+    
+}
+
+.form-section {
+    position: fixed;
+    top: 46%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    width: 230px;
+    height: 450px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.input-container {
+    margin-bottom: 30px;
+    justify-content: center; 
+    
+}
+
+.input-container:first-child {
+    margin-top: 40px;
+
+}
+
+input[type="email"],
+input[type="password"] {
+    width:100% ;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: inherit;
+    font-size: 13px;
+    
+}
+
+input[type="email"]:hover,
+input[type="password"]:hover {
+    border-color: #504e4e;
+
+}
+
+button {
+    padding: 7px 80px;
+    font-size: 12px;
+    background-color: #4196f1;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+
+/*!----------------------------------------------------------------------------*/
+
+
+
+.signup {
+    font-weight: 500;
+    margin-top: 35px;   
+    text-decoration: none;
+    text-decoration-line: none; 
+}
+
+.signup a{
+    font-weight: 600;
+    color: rgb(73, 154, 241);
+    text-decoration: none;
+    text-decoration-line: none;
+
+}
+.language-Selector {
+    position: fixed;
+    bottom: 2%;
+    left: 35%;
+    text-decoration: none;
+    margin-left: 250px;
+
+}
+
+.language-Selector select {
+    background-color: inherit;
+    border: none;
+}
+
+.language-Selector select {
+    background-color: inherit;
+    border: none;
+}
+
+
+
+
