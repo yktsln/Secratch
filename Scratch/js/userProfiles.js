@@ -21,9 +21,31 @@ console.log(username); // Kullanıcı adını konsola yazdırın
 
         let profilePicDiv = document.querySelector(".profile-pic");
         profilePicDiv.appendChild(img);
-    }else{
-        console.log('no profil pic');
+    }else if(username === 'enzo gorlami'){
+        let img = document.createElement("img");
+
+      
+        img.src = "/Scratch/img/loginPage/enzo.png";
+
+      
+        img.classList.add("img-fluid");
+
+        let profilePicDiv = document.querySelector("#pp");
+        profilePicDiv.appendChild(img);
+    }else if(username === 'antonio margheriti'){
+        let img = document.createElement("img");
+
+      
+        img.src = "/Scratch/img/loginPage/antonio.png";
+
+      
+        img.classList.add("img-fluid");
+
+        let profilePicDiv = document.querySelector(".profile-pic");
+        profilePicDiv.appendChild(img);
     }
+
+    
 
 
 }
@@ -33,23 +55,4 @@ setProfilePicture();
 
 
 
-
-// LocalStorage'dan kullanıcı verilerini alın
-let userData = localStorage.getItem('users');
-
-// Aldığınız veriyi bir değişkene atayın
-let users = JSON.parse(userData);
-
-// Veriyi bir JSON dosyasına yazın
-let jsonContent = JSON.stringify(users);
-let blob = new Blob([jsonContent], { type: 'application/json' });
-let url = URL.createObjectURL(blob);
-
-// Dosyayı indirme bağlantısını oluşturun
-let downloadLink = document.createElement('a');
-downloadLink.href = url;
-downloadLink.download = 'users.json';
-
-// Bağlantıyı tıklamak için otomatik tetikleyin
-downloadLink.click();
 

@@ -83,6 +83,18 @@ h4{
 }
 
 
+#logOut {
+    background-color: inherit;
+    border: none;
+}
+
+#logOut a{
+    color: white;
+    font-size: 14.5px;
+    font-weight: 300;
+    text-decoration: none;
+}
+
 
 
 
